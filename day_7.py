@@ -21,7 +21,7 @@ def check_guess(guess):
     else:
         misses -= 1
 
-    return current_guessed
+    return current_guessed 
 
 ##################
 #### SETUP ####

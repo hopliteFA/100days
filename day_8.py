@@ -2,11 +2,13 @@
 
 #Write your code below this line 👇
 
+from math import ceil
+
 def paint_calc(height, width, cover):
-    if test_h*test_w > cover:
-        print("You need more paint!")
-    else:
-        print("You have enough paint!")
+    cans_of_paint = test_h * test_w / cover
+    print(f"You need {ceil(cans_of_paint)} cans of paint!")
+
+
 
 #Write your code above this line 👆
 # Define a function called paint_calc() so that the code below works.   
